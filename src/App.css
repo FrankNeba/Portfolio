@@ -1,0 +1,47 @@
+.skills{
+  animation: fadeIn 15s linear infinite;
+  display: block;
+  width: 100%;
+  margin: auto;
+  white-space: nowrap;
+  padding-left: 20px;
+ margin-top: 0px;
+ line-height: 0;
+
+}
+
+.body{
+  padding: 10px;
+}
+
+.skills > ul{
+  display:inline-flex;
+  gap: 3rem;
+
+}
+ul > li{
+  font-weight: 700;
+}
+
+.Name{
+  color: rgba(2, 56, 23, 0.886);
+  margin-bottom: 0px;
+  line-height: 0;
+}
+@keyframes fadeIn{
+  0% { transform: translateX(100%);}
+  100% {transform: translateX(-100%); }
+ 
+}
+
+
+@media(max-width: 700px){
+  .skills{
+    animation: fadeIn 20s linear infinite;
+  }
+@keyframes fadeIn{
+  0% { transform: translateX(100%);}
+  100% {transform: translateX(-290%); }
+ 
+}
+}
