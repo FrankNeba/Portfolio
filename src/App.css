@@ -41,7 +41,7 @@ ul > li{
   }
 @keyframes fadeIn{
   0% { transform: translateX(100%);}
-  100% {transform: translateX(-290%); }
+  100% {transform: translateX(-300%); }
  
 }
 }
