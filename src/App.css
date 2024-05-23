@@ -1,8 +1,7 @@
 .skills{
   animation: fadeIn 15s linear infinite;
   display: block;
-  width: 100%;
-  margin: auto;
+  
   white-space: nowrap;
   padding-left: 20px;
  margin-top: 0px;
@@ -11,7 +10,8 @@
 }
 
 .body{
-  padding: 10px;
+  overflow-x: hidden;
+  background-color: rgba(2, 56, 23, 0.886);;
 }
 
 .skills > ul{
@@ -21,13 +21,17 @@
 }
 ul > li{
   font-weight: 700;
+  color: rgba(2, 56, 23, 0.886);
 }
 
 .Name{
   color: rgba(2, 56, 23, 0.886);
   margin-bottom: 0px;
-  line-height: 0;
+  line-height: 1;
+ 
 }
+
+
 @keyframes fadeIn{
   0% { transform: translateX(100%);}
   100% {transform: translateX(-100%); }
@@ -41,7 +45,49 @@ ul > li{
   }
 @keyframes fadeIn{
   0% { transform: translateX(100%);}
-  100% {transform: translateX(-300%); }
+  100% {transform: translateX(-330%); }
  
 }
+
+.Name{
+  font-size: x-small;
+}
+}
+
+.cv{
+  background-color: rgba(2, 56, 23, 0.886);;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 99%;
+  
+}
+
+.contact{
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about{
+  background-color:rgba(2, 56, 23, 0.886) ;
+  padding-left: 10px;
+  color: rgb(226, 226, 226);
+}
+
+.head{
+  background-color: white;
+  padding: 10px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  line-height: 1;
+}
+
+.skill{
+  color:  rgb(226, 226, 226);
+  font-weight: 400;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 5s, visibility 5s;
 }
