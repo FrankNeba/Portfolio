@@ -16,7 +16,7 @@ function App() {
         <div className="skills">
           <ul>
             <li>Frontend Web Developer</li>
-            <li>HTMl</li>
+            <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
             <li>Bootstrap</li>
