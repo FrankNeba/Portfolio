@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // import './Files/js/bootstrap.bundle.min.js'
 
 function App() {
   return (
-    <div className="body">
+    <div className=" body">
       <div className="head">
         <div className="Name">
           <h1>
@@ -30,7 +31,7 @@ function App() {
         </div>
         <div className="contact">
           <a
-            className="buttons"
+            className="buttons btn-success"
             download="Ngwa_Frank_Neba_resume.pdf"
             href={`${process.env.PUBLIC_URL}/Ngwa_Frank_CV.pdf`}
           >
@@ -41,7 +42,7 @@ function App() {
           </a>
         </div>
       </div>
-      <div className="container about">
+      <div className=" about">
         <h3>About me</h3>
         <p>
           I am a full stack Developer with over 4 years of experience and a
@@ -122,7 +123,9 @@ function App() {
               <li className="white">
                 Implementing responsive designs on websites and applications
               </li>
-              <li className="white">Maintaining and updating websites and applicatons </li>
+              <li className="white">
+                Maintaining and updating websites and applicatons{" "}
+              </li>
             </ul>
           </div>
 
@@ -133,11 +136,13 @@ function App() {
               <li className="white">
                 Built websites and applictions for over 100 different customers
                 with HTML, CSS JavaScript, React.js and Django
-              </li >
+              </li>
               <li className="white">
-              Collaborated with others in developing full stack applications
-              </li >
-              <li className="white">Maintaining and updating websites and applicatons </li>
+                Collaborated with others in developing full stack applications
+              </li>
+              <li className="white">
+                Maintaining and updating websites and applicatons{" "}
+              </li>
             </ul>
           </div>
         </div>
