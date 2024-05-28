@@ -44,20 +44,17 @@ function App() {
       <div className="container about">
         <h3>About me</h3>
         <p>
-          I am a frontend web developer with over a year of experience and
-          mastery of HTML, CSS , Javascript. I am verse with frameroks like
-          React.js, React native and Bootstrap. I have knowledge with languages
-          like C, C++, Python and verion control systems like git and Github.I have
-          worked on many projects with different individuals and groups in
-          building user friendly and easily navigated sites.
-        </p>
-        <p>
-          While leaning and improving on my skills, I have been tutoring Advance
-          Level students in C programming language. I love working in a team but
-          I have no problem working on priojects individually. I make sure I
-          keep myself updated with latest technologies as the days go body. I am
-          looking forward to working and collaborating with others in realizing
-          projects and expanding my skill set.
+          I am a full stack Developer with over 4 years of experience and a
+          mastery of HTML, CSS, Bootstrap, JavaScript, React.js, Python and
+          Django. I have some knowledge in C and C++ with knowledge on version
+          control systems like Git and Github. I have worked on many projects
+          for many different satisfied customers and with different individuals
+          in building user friendly and easily navigated websites and
+          applications. While learning and improving on my skills I have been
+          providing others with the knowledge I have especially knowledge on C
+          to students going in for GCE advance level. I am looking forward to
+          working and collaborating with others in completing projects and
+          expanding my skill set.
         </p>
         <hr></hr>
         <hr></hr>
@@ -72,6 +69,7 @@ function App() {
             <li className="skill">REACT.JS</li>
             <li className="skill">REACT NATIVE</li>
             <li className="skill">PYTHON</li>
+            <li className="skill">DJANGO</li>
             <li className="skill">C</li>
             <li className="skill">C++</li>
             <li className="skill">GIT</li>
@@ -113,20 +111,36 @@ function App() {
           <hr></hr>
           <hr></hr>
         </div>
-        
+
         <div className="work">
           <h3>Work Experience</h3>
           <div className="school">
             <h4>Frontend Developer</h4>
-            <h5>Zilotech, 2024 - Present</h5>
-          <ul>
-            <li>Building user friendly sites and UIs</li>
-            <li>Implementing responsive designs on websites and applications</li>
-            <li>Maintaining and updating websites and applicatons </li>
-          </ul>
+            <h5>Zilotech, 2023 - Present</h5>
+            <ul className="white">
+              <li className="white">Building user friendly sites and UIs</li>
+              <li className="white">
+                Implementing responsive designs on websites and applications
+              </li>
+              <li className="white">Maintaining and updating websites and applicatons </li>
+            </ul>
+          </div>
+
+          <div className="school">
+            <h4>Full stack developer</h4>
+            <h5>freelancer, 2020 - Present</h5>
+            <ul className="white">
+              <li className="white">
+                Built websites and applictions for over 100 different customers
+                with HTML, CSS JavaScript, React.js and Django
+              </li >
+              <li className="white">
+              Collaborated with others in developing full stack applications
+              </li >
+              <li className="white">Maintaining and updating websites and applicatons </li>
+            </ul>
           </div>
         </div>
-
       </div>
     </div>
   );
