@@ -49,6 +49,8 @@ ul > li{
  
 }
 
+
+
 .Name{
   font-size: x-small;
 }
@@ -73,6 +75,9 @@ ul > li{
   background-color:rgba(2, 56, 23, 0.886) ;
   padding-left: 10px;
   color: rgb(226, 226, 226);
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 1rem;
 }
 
 .head{

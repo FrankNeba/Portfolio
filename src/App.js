@@ -42,8 +42,10 @@ function App() {
           </a>
         </div>
       </div>
-      <div className=" about">
-        <h3>About me</h3>
+
+       <div className=" about ">
+        <div className="container">
+          <h3>About me</h3>
         <p>
           I am a full stack Developer with over 4 years of experience and a
           mastery of HTML, CSS, Bootstrap, JavaScript, React.js, Python and
@@ -59,8 +61,13 @@ function App() {
         </p>
         <hr></hr>
         <hr></hr>
+        </div>
 
-        <div className="skillset">
+
+      <div className="container">
+        <div className="container">
+        <div className="row">
+        <div className=" col-md-6 skillset">
           <h3>Tech skills</h3>
           <ul>
             <li className="skill">HTML</li>
@@ -75,6 +82,7 @@ function App() {
             <li className="skill">C++</li>
             <li className="skill">GIT</li>
             <li className="skill">GITHUB</li>
+            <li className="skill">TAILWIND CSS</li>
           </ul>
 
           <h3>Soft skills</h3>
@@ -85,37 +93,39 @@ function App() {
             <li className="skill">Comfortable working remotely</li>
             <li className="skill">Effective in problem solving</li>
           </ul>
+           <hr></hr>
         </div>
-        <hr></hr>
+       
 
-        <div className="education">
+        <div className="education col-md-6">
           <h3>Education</h3>
           <div className="school">
             <h4>National Higher Polytechnic Institute Bamenda</h4>
             <h5>Bachelor in Computer Engineering</h5>
             <h6>2023 - Present</h6>
           </div>
-          <hr></hr>
+          
 
-          <div className="school">
+          <div className="school ">
             <h4>Progressive Comprehensive High School Bamenda</h4>
             <h5>Science</h5>
             <h6>2020 - 2023</h6>
           </div>
-          <hr></hr>
+        
 
-          <div className="school">
+          <div className="school ">
             <h4>Government High School Bafut</h4>
             <h5>General Education</h5>
             <h6>2013 - 2016</h6>
           </div>
-          <hr></hr>
-          <hr></hr>
+          
         </div>
 
-        <div className="work">
-          <h3>Work Experience</h3>
-          <div className="school">
+          <div className="col-12 text-md-center">
+             <h2 >Work Experience</h2>
+          </div>
+         
+          <div className="school col-md-6">
             <h4>Frontend Developer</h4>
             <h5>Zilotech, 2023 - Present</h5>
             <ul className="white">
@@ -129,7 +139,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="school">
+          <div className="school col-md-6">
             <h4>Full stack developer</h4>
             <h5>freelancer, 2020 - Present</h5>
             <ul className="white">
@@ -146,6 +156,11 @@ function App() {
             </ul>
           </div>
         </div>
+        </div>
+      </div>
+     
+
+        
       </div>
     </div>
   );
