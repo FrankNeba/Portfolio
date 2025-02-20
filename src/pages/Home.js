@@ -36,7 +36,7 @@ const Home = () => {
     }, 200);
 
     return () => clearInterval(interval);
-  }, [index, skillIndex]);
+  }, );
 
   return (
     <div className="home-body">
@@ -50,7 +50,7 @@ const Home = () => {
       </div>
       <div className="picture">
         <img src={profile} alt="Ngwa Frank" className="image" />
-        <h3>{display}</h3>
+        <h3 className='skills'>{display}</h3>
       </div>
     </div>
   );

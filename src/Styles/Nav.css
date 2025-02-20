@@ -14,6 +14,8 @@
     
 }
 
+
+
 .nav-pages{
      display: flex;
     justify-content: space-around;
@@ -67,4 +69,11 @@ a{
     width: 25%;
     justify-self: right;
     /* background-color: red; */
+}
+
+@media(max-width: 600px){
+    .nav-pages, .social{
+    display: none;
+    /* background-color: red; */
+   }
 }
