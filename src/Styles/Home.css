@@ -4,6 +4,9 @@
      justify-content: center;
     display: flex;
     min-height: 100vh;
+    justify-content: center;
+    padding-top: 150px;
+    /* align-items: center; */
     /* background-color: red; */
 }
 .body-info{
@@ -11,6 +14,7 @@
     /* background-color: red; */
     height: fit-content;
     padding: 80px 10px;
+    height: 80%;
     
 }
 
@@ -23,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    height: 80%;
     
 }
 

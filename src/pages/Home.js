@@ -36,7 +36,7 @@ const Home = () => {
     }, 200);
 
     return () => clearInterval(interval);
-  }, [index, skillIndex, skills]);
+  }, [index, skillIndex]);
 
   return (
     <div className="home-body">
