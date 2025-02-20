@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/Home.css';
+
+
 import profile from '../Files/ProfilePicture.jpeg';
+
+import About from './About'
+// import ProgressBar from './Loader';
 
 const Home = () => {
   const [display, setDisplay] = useState('');
@@ -39,6 +44,7 @@ const Home = () => {
   }, );
 
   return (
+    <div>
     <div className="home-body">
       <div className="body-info">
         <h1 className="name">Ngwa Frank Neba</h1>
@@ -60,6 +66,9 @@ const Home = () => {
         <img src={profile} alt="Ngwa Frank" className="image" />
         <h3 className='skills'>{display}</h3>
       </div>
+    </div>
+    <About />
+    {/* <ProgressBar /> */}
     </div>
   );
 };

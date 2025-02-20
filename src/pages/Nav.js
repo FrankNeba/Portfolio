@@ -14,7 +14,7 @@ function Nav() {
                 <Link className='link' to='/Projects'>Projects</Link>
             </div>
             <div className='social'>
-                <a href='https://github.com/frankneba'>linkedIn</a>
+                <a href='https://linkedin.com/in/ngwafrank'>linkedIn</a>
                 <a href='https://github.com/frankneba' target='_blank' rel="noreferrer">Github</a>
 
             </div>

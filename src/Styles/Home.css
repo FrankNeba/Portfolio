@@ -9,14 +9,17 @@
     .home-body{
         flex-direction: column-reverse;
     }
+
+    
 }
+
 
 .home-body{
     width: 100%;
     color: white;
      justify-content: center;
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     justify-content: center;
     padding-top: 35px;
     /* padding-top: ; */
@@ -55,6 +58,14 @@
     width: 300px;
 }
 
+@media(max-width:600px){
+    .image{
+        border-radius: 10px;
+        width: 100px;
+        background-color: red;
+    }
+}
+
 .about{
     color:#7f868d;
     line-height: 30px;
@@ -75,3 +86,17 @@
     margin-top: 50px;
 }
 
+.order-services:hover{
+    background-color: #088708;
+}
+
+
+.about-me{
+    max-width: 90%;
+    text-align: justify;
+}
+
+.about-me > p, .about-me>h2 {
+    line-height: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+/* Progress bar styling */
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  height: 25px;
+  overflow: hidden;
+}
+
+/* Inner progress styling */
+.progress {
+  background-color: #4a90e2;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
