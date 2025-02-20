@@ -15,7 +15,7 @@ function Nav() {
             </div>
             <div className='social'>
                 <a href=''>linkedIn</a>
-                <a href='https://github.com/frankneba' target='_blank'>Github</a>
+                <a href='https://github.com/frankneba' target='_blank' rel="noreferrer">Github</a>
 
             </div>
 
