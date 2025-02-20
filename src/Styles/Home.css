@@ -3,6 +3,7 @@
         flex-direction: column;
         align-items: center;
         min-width: 90%;
+        /* justify-content:; */
     }
 
     .home-body{
@@ -61,5 +62,16 @@
 
 .skills{
     font-size: 25px;
+}
+
+.order-services{
+    width: 60%;
+    color: white;
+    background-color:#0eb60e;
+    border: none;
+    padding: 20px;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 50px;
 }
 

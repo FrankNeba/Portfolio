@@ -47,6 +47,14 @@ const Home = () => {
           HTML, CSS, Bootstrap, JavaScript, React.js, React Native, Python, and
           Django.
         </p>
+        <a
+            
+             download="Ngwa_Frank_Neba_resume.pdf"
+            href={`${process.env.PUBLIC_URL}/Ngwa_Frank_CV.pdf`}
+            > 
+            <button className='order-services'>
+                Download CV
+            </button></a>
       </div>
       <div className="picture">
         <img src={profile} alt="Ngwa Frank" className="image" />
