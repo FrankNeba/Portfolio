@@ -133,6 +133,12 @@
         /* width: 100%; */
         /* background-color: red; */
     }
+    .buttons{
+    display: flex;
+    flex-direction: row;
+    /* width: 49; */
+    justify-content: space-around;
+}
     /* .button{ */
         /* justify-self: center; */
         /* align-self: center; */
@@ -148,4 +154,14 @@
     text-align: start;
     margin-top: 30px;
     color: #fff;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button{
+    width: 49%;
 }
