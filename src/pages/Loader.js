@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import '../Styles/loader.css'
+import '../Styles/loader.css';
 
-const ProgressBar = () => {
+const ProgressBar = (props) => {
   const [progress, setProgress] = useState(0);
   const containerRef = useRef(null);
 
@@ -11,10 +11,10 @@ const ProgressBar = () => {
       if (containerRef.current) {
         const rect = containerRef.current.getBoundingClientRect();
         const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
-        if (isVisible) {
-          let currentProgress = 0;
+        if (isVisible && progress < props.percentage) {
+          let currentProgress = progress;
           const interval = setInterval(() => {
-            if (currentProgress < 80) {
+            if (currentProgress < props.percentage) {
               currentProgress += 1;
               setProgress(currentProgress);
             } else {
@@ -26,19 +26,21 @@ const ProgressBar = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Trigger on mount
+    handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [progress, props.percentage]);
 
   return (
     <div ref={containerRef} className="container">
+      {props.skill}
       <div className="progress-bar">
         <div
           className="progress"
-          style={{ width: `${progress}%` }}
-        >{progress}%</div>
+          style={{ width: `${progress}%`, backgroundColor: `${props.color}` }}
+        ></div>
       </div>
+      {progress}%
     </div>
   );
 };

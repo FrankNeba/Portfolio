@@ -1,0 +1,17 @@
+
+.simple-box {
+  opacity: 0;
+  transform: translateY(500px);
+  transition: all 0.5s ease;
+  /* padding: 20px; */
+  /* margin: 20px; */
+  /* background-color: #4a90e2; */
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.simple-box.show {
+  opacity: 1;
+  transform: translateY(0);
+}

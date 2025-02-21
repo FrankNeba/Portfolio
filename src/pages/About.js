@@ -1,8 +1,13 @@
 import React from 'react'
 import '../Styles/Home.css';
 
+import Pop from './Pop';
+
 function About() {
   return (
+    <Pop>
+
+  
     <div className='home-body'>
         <div className='about-me'>
             <h2>About Me</h2>
@@ -22,6 +27,7 @@ function About() {
         </div>
         
     </div>
+      </Pop>
   )
 }
 

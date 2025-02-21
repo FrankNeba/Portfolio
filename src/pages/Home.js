@@ -5,7 +5,8 @@ import '../Styles/Home.css';
 import profile from '../Files/ProfilePicture.jpeg';
 
 import About from './About'
-// import ProgressBar from './Loader';
+import Pop from './Pop';
+import ProgressBar from './Loader';
 
 const Home = () => {
   const [display, setDisplay] = useState('');
@@ -44,9 +45,10 @@ const Home = () => {
   }, );
 
   return (
-    <div>
+    <div className='page'>
     <div className="home-body">
       <div className="body-info">
+        <Pop/>
         <h1 className="name">Ngwa Frank Neba</h1>
         <p className="about">
           Full stack Developer with over 4 years of experience and a mastery of
@@ -67,8 +69,20 @@ const Home = () => {
         <h3 className='skills'>{display}</h3>
       </div>
     </div>
-    <About />
-    {/* <ProgressBar /> */}
+   
+         <About />
+
+   
+   <div className='progress-bars'>
+     <ProgressBar percentage = {97} skill={'HTML'} color = {'green'}/>
+     <ProgressBar percentage = {86} skill={'CSS'} color = {'red'}/>
+      <ProgressBar percentage = {95} skill={'JAVASCRIPT'} color = {' #4a90e2'}/>
+       <ProgressBar percentage = {75} skill={'DJANGO REST'} color = {'brown'}/>
+        <ProgressBar percentage = {91} skill={'REACT'} color = {'yellow'}/>
+         <ProgressBar percentage = {80} skill={'REACT NATIVE'} color = {'orange'}/>
+   
+
+   </div>
     </div>
   );
 };
