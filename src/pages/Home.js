@@ -64,6 +64,14 @@ const Home = () => {
             <button className='order-services'>
                 Download CV
             </button></a>
+            <a  
+            className='button'
+            // download="Ngwa_Frank_Neba_resume.pdf"
+            href='mailto:frankneba92@gmail.com'
+            > 
+            <button className='order-services'>
+                Contact Me
+            </button></a>
       </div>
       <div className="picture">
         <img src={profile} alt="Ngwa Frank" className="image" />
