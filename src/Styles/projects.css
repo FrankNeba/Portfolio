@@ -57,6 +57,7 @@
     }
     .card{
         align-items: flex-start;
+        height: 70vh;
     }
     
 }
