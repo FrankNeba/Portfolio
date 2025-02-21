@@ -22,7 +22,7 @@ const ProgressBar = (props) => {
                 return prev;
               }
             });
-          }, 50);
+          }, 30);
         }
       }
     };

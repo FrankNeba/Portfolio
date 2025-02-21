@@ -9,7 +9,7 @@ import Pop from './Pop';
 import Skills from './Skills';
 
 const Home = () => {
-  const [display, setDisplay] = useState('');
+  const [display, setDisplay] = useState('_');
   const [index, setIndex] = useState(0);
   const [skillIndex, setSkillIndex] = useState(0);
 
@@ -35,7 +35,7 @@ const Home = () => {
         setTimeout(() => {
           setSkillIndex((prev) => (prev + 1) % skills.length); 
           setIndex(0);
-          setDisplay('');
+          setDisplay('_');
         }, 2000); 
         clearInterval(interval); 
       }
@@ -66,7 +66,7 @@ const Home = () => {
       </div>
       <div className="picture">
         <img src={profile} alt="Ngwa Frank" className="image" />
-        <h3 className='skills'>{display}</h3>
+        <h3 className='skills'>{display}_</h3>
       </div>
     </div>
    
