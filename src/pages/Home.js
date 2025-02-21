@@ -6,7 +6,7 @@ import profile from '../Files/ProfilePicture.jpeg';
 
 import About from './About'
 import Pop from './Pop';
-import ProgressBar from './Loader';
+import Skills from './Skills';
 
 const Home = () => {
   const [display, setDisplay] = useState('');
@@ -73,16 +73,7 @@ const Home = () => {
          <About />
 
    
-   <Pop className='progress-bars'>
-     <ProgressBar percentage = {97} skill={'HTML'} color = {'green'}/>
-     <ProgressBar percentage = {86} skill={'CSS'} color = {'red'}/>
-      <ProgressBar percentage = {95} skill={'JAVASCRIPT'} color = {' #4a90e2'}/>
-       <ProgressBar percentage = {75} skill={'DJANGO REST'} color = {'brown'}/>
-        <ProgressBar percentage = {91} skill={'REACT'} color = {'yellow'}/>
-         <ProgressBar percentage = {80} skill={'REACT NATIVE'} color = {'orange'}/>
-   
-
-   </Pop>
+        <Skills/>
     </div>
   );
 };

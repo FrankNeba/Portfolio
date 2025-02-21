@@ -5,7 +5,9 @@ import { Route, Routes } from "react-router-dom";
 
 // components
 import Home from "./pages/Home";
+import About from "./pages/About";
 import Nav from "./pages/Nav";
+import Skills from "./pages/Skills";
 
 
 
@@ -59,17 +61,17 @@ function App() {
     //     <div className="container">
     //       <h3>About me</h3>
     //     <p>
-    //       I am a full stack Developer with over 4 years of experience and a
-    //       mastery of HTML, CSS, Bootstrap, JavaScript, React.js, Python and
-    //       Django. I have some knowledge in C and C++ with knowledge on version
-    //       control systems like Git and Github. I have worked on many projects
-    //       for many different satisfied customers and with different individuals
-    //       in building user friendly and easily navigated websites and
-    //       applications. While learning and improving on my skills I have been
-    //       providing others with the knowledge I have especially knowledge on C
-    //       to students going in for GCE advance level. I am looking forward to
-    //       working and collaborating with others in completing projects and
-    //       expanding my skill set.
+          // I am a full stack Developer with over 4 years of experience and a
+          // mastery of HTML, CSS, Bootstrap, JavaScript, React.js, Python and
+          // Django. I have some knowledge in C and C++ with knowledge on version
+          // control systems like Git and Github. I have worked on many projects
+          // for many different satisfied customers and with different individuals
+          // in building user friendly and easily navigated websites and
+          // applications. While learning and improving on my skills I have been
+          // providing others with the knowledge I have especially knowledge on C
+          // to students going in for GCE advance level. I am looking forward to
+          // working and collaborating with others in completing projects and
+          // expanding my skill set.
     //     </p>
     //     <hr></hr>
     //     <hr></hr>
@@ -178,6 +180,9 @@ function App() {
 }
     <Routes>
       <Route path="/" element={<Home />}/>
+      <Route path="/about" element={<About />}/>
+      <Route path="/skills" element={<Skills />}/>
+
     </Routes>
 
      </div>

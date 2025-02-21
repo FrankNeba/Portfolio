@@ -2,13 +2,21 @@
     *{
         flex-direction: column;
         align-items: center;
-        min-width: 90%;
+        /* min-width: 90%; */
         /* justify-content:; */
     }
 
     .home-body{
         flex-direction: column-reverse;
+        min-width: 95%;
     }
+
+    .page, .body-info, .picture, .name, .image {
+        min-width: 95%;
+        align-items: center;
+    }
+
+
 
     
 }
@@ -114,5 +122,6 @@
     .progress-bars{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        /* background-color: red; */
     }
 }

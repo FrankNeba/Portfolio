@@ -9,7 +9,7 @@ function Nav() {
             <div className='nav-pages'>
                 <Link className='link' to='/' >Home</Link>
                 <Link className='link' to='/About'>About</Link>
-                <Link className='link' to='/Skills'>Skills</Link>
+                <Link className='link' to='/skills'>Skills</Link>
                 <Link className='link' to='/Contact'>Contact</Link>
                 <Link className='link' to='/Projects'>Projects</Link>
             </div>
