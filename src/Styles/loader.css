@@ -1,6 +1,7 @@
 .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  /* flex-direction: row; */
+  grid-template-columns: 1fr 8fr 1fr;
   align-items: center;
   padding: 20px;
   gap: 10px;
