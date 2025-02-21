@@ -11,6 +11,7 @@ const ProgressBar = (props) => {
     const handleScroll = () => {
       if (containerRef.current) {
         const isVisible = containerRef.current.getBoundingClientRect().top >= 0 && containerRef.current.getBoundingClientRect().bottom <= window.innerHeight;
+         
         if (isVisible && progress < props.percentage) {
           clearInterval(intervalRef.current);
           intervalRef.current = setInterval(() => {
@@ -22,7 +23,7 @@ const ProgressBar = (props) => {
                 return prev;
               }
             });
-          }, 30);
+          }, 10);
         }
       }
     };

@@ -1,5 +1,7 @@
 .body{
   min-height: 100vh;
-  background-color: rgb(37, 35, 35);
-  
+  background-color: #3c3d3d;
+
+  overflow-y: auto;
+
 }

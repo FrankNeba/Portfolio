@@ -6,6 +6,10 @@ import '../Styles/Home.css'
 function Skills() {
   return (
      <Pop >
+        <div className='skills-head'>
+           <h2>Skills</h2> 
+        </div>
+        
     <div className='progress-bars'>
      <ProgressBar percentage = {97} skill={'HTML'} color = {'green'}/>
      <ProgressBar percentage = {86} skill={'CSS'} color = {'red'}/>

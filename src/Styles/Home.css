@@ -22,6 +22,11 @@
 }
 .page{
     height: 100%;
+    width: 100%;
+    background: #3c3d3d;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
 }
 
 .home-body{
@@ -42,6 +47,8 @@
     height: fit-content;
     padding: 80px 10px;
     height: 80%;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -72,7 +79,7 @@
     .image{
         border-radius: 10px;
         width: 100px;
-        background-color: red;
+        /* background-color: red; */
     }
 }
 
@@ -86,7 +93,7 @@
 }
 
 .order-services{
-    width: 60%;
+    width: 100%;
     color: white;
     /* background-color:#0eb60e; */
     background-color: #4a90e2;
@@ -122,6 +129,23 @@
     .progress-bars{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        /* justify-self: center; */
+        /* width: 100%; */
         /* background-color: red; */
     }
+    /* .button{ */
+        /* justify-self: center; */
+        /* align-self: center; */
+        /* width: 50%; */
+    /* } */
+}
+
+.skills-head{
+    width: 90%;
+    /* background-color: red; */
+    justify-self: center;
+    /* justify-content: left; */
+    text-align: start;
+    margin-top: 30px;
+    color: #fff;
 }

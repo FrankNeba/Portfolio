@@ -5,8 +5,9 @@ import '../Styles/Home.css';
 import profile from '../Files/ProfilePicture.jpeg';
 
 import About from './About'
-import Pop from './Pop';
+// import Pop from './Pop';
 import Skills from './Skills';
+import Projects from './Projects';
 
 const Home = () => {
   const [display, setDisplay] = useState('_');
@@ -48,16 +49,16 @@ const Home = () => {
     <div className='page'>
     <div className="home-body">
       <div className="body-info">
-        <Pop/>
+        
         <h1 className="name">Ngwa Frank Neba</h1>
         <p className="about">
           Full stack Developer with over 4 years of experience and a mastery of
           HTML, CSS, Bootstrap, JavaScript, React.js, React Native, Python, and
           Django.
         </p>
-        <a
-            
-             download="Ngwa_Frank_Neba_resume.pdf"
+        <a  
+            className='button'
+            download="Ngwa_Frank_Neba_resume.pdf"
             href={`${process.env.PUBLIC_URL}/Ngwa_Frank_CV.pdf`}
             > 
             <button className='order-services'>
@@ -74,6 +75,8 @@ const Home = () => {
 
    
         <Skills/>
+
+        <Projects />
     </div>
   );
 };
