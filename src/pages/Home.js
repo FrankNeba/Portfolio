@@ -73,7 +73,7 @@ const Home = () => {
          <About />
 
    
-   <div className='progress-bars'>
+   <Pop className='progress-bars'>
      <ProgressBar percentage = {97} skill={'HTML'} color = {'green'}/>
      <ProgressBar percentage = {86} skill={'CSS'} color = {'red'}/>
       <ProgressBar percentage = {95} skill={'JAVASCRIPT'} color = {' #4a90e2'}/>
@@ -82,7 +82,7 @@ const Home = () => {
          <ProgressBar percentage = {80} skill={'REACT NATIVE'} color = {'orange'}/>
    
 
-   </div>
+   </Pop>
     </div>
   );
 };
