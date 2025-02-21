@@ -9,10 +9,14 @@
     position: relative;
     transition: background-color 0.2s ease-in-out, color 0.5s ease-in-out;
     z-index: 10;
-    overflow: hidden;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    white-space: normal;
     
 }
 
@@ -27,7 +31,7 @@
     background-color: white;
     transition: width 0.5s ease-in-out;
     z-index: -1;
-    /* border-radius: 10px; */
+    border-radius: 10px;
 }
 
 .card:hover::before{
