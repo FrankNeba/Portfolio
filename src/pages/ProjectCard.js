@@ -24,14 +24,17 @@ function ProjectCard(props) {
                 Visit Github
             </a>
 
-            <a
+            { 
+             props.live? (<a
                 href={props.live}
                 target='_blank' 
                 rel="noreferrer"
                 className='link-to'
                  >
                 Live Site
-            </a>
+            </a>) : ''
+            }
+                
 
         </div>
 

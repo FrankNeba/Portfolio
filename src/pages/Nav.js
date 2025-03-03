@@ -12,7 +12,7 @@ function Nav() {
                 <Link className='link' to='/About'>About</Link>
                 <Link className='link' to='/skills'>Skills</Link>
                 <Link className='link' to='/Contact'>Contact</Link>
-                <Link className='link' to='/Projects'>Projects</Link>
+                <Link className='link' to='/projects'>Projects</Link>
             </div>
             <div className='social'>
                 <a href='https://linkedin.com/in/ngwafrank' target='_blank' rel="noreferrer">

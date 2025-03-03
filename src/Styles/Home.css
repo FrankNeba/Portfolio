@@ -120,6 +120,10 @@
     margin-bottom: 20px;
 }
 
+.about-me > p{
+    color: #7f868d;
+}
+
 .progress-bars{
     display: flex;
     flex-direction: column;

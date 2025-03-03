@@ -52,9 +52,7 @@ const Home = () => {
         
         <h1 className="name">Ngwa Frank Neba</h1>
         <p className="about">
-          Full stack Developer with over 4 years of experience and a mastery of
-          HTML, CSS, Bootstrap, JavaScript, React.js, React Native, Python, and
-          Django.
+          Experienced Full-Stack Developer with 3+ years of expertise in building dynamic and responsive web and mobile applications. Proficient in HTML, CSS, Bootstrap, JavaScript, React.js, React Native, Python, and Django. Passionate about creating seamless user experiences and scalable backend solutions.
         </p>
         <div className='buttons'>
              <a  
